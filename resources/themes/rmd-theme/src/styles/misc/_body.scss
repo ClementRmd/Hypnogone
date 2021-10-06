@@ -1,0 +1,219 @@
+h1 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 800;
+  color: $blue;
+  font-family: $secondary-font;
+  line-height: 1.5;
+}
+
+h2 {
+  position: relative;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: $blue;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: center;
+  font-family: $secondary-font;
+  margin: 25px 0 40px 0;
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 22%;
+    border-bottom: 3px solid $blue;
+    content: "";
+
+    @include large {
+      width: 35%;
+    }
+  }
+
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 22%;
+    border-bottom: 3px solid $blue;
+    content: "";
+
+    @include large {
+      width: 35%;
+    }
+  }
+}
+
+h3 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1.5;
+  text-align: left;
+  font-family: $secondary-font;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    font-family: $main-font;
+  }
+}
+
+p {
+  font-family: $main-font;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+a {
+  font-family: $secondary-font;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
+}
+
+.bg_blue {
+  background-color: $blue;
+
+  .nav-link,
+  p {
+    color: white;
+  }
+}
+
+// BUTTONS
+
+.blocButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  font-family: $main-font;
+  font-weight: 700;
+  background-color: $blue;
+  transition: all 1s ease-in;
+  color: white;
+
+  &:hover,
+  &:focus {
+    transition: all 1s ease-in;
+    background-color: $medium-blue;
+    color: white;
+  }
+}
+
+.blocTitleHome {
+  margin: 0 0 60px 0;
+}
+
+.wysiwyg {
+  p {
+    font-family: $main-font;
+  }
+}
+
+.menu-item a,
+.btnText {
+  background: linear-gradient(to right, $blue, $blue 50%, grey 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 0.5s ease;
+  text-decoration: none;
+  &:hover {
+    background-position: 0 100%;
+  }
+}
+
+/*****************            CLASS JS             ******************************/
+
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.js-active-popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 999999;
+  background-color:rgba(0, 0, 0, 0.9);
+
+  .blocImgPopup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 700px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .overlayPopup__close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(white, 0.8);
+    transform: rotate(0);
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+
+    span {
+      position: relative;
+      display: flex;
+      height: 100%;
+
+      &:before,
+      &:after {
+        position: absolute;
+        top: 50%;
+        height: 35px;
+        border-radius: 5px;
+        content: '';
+      }
+
+      &:before {
+        right: 50%;
+        transform: translate(50%, -50%) rotate(-45deg);
+        border-left: 4px solid $blue;
+      }
+
+      &:after {
+        left: 50%;
+        transform: translate(-50%, -50%)rotate(45deg);
+        border-right: 4px solid $blue;
+      }
+    }
+
+    &:hover,
+    &:focus {
+      transform: rotate(180deg);
+    }
+  }
+}

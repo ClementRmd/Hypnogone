@@ -1,0 +1,42 @@
+@import 'misc/dev';
+@import 'misc/mixin';
+@import 'misc/config';
+@import 'misc/body';
+@import 'misc/background';
+
+// HEADER
+@import 'views/header/header';
+
+// HOME
+@import 'views/home/hero';
+@import 'views/home/slider';
+@import 'views/home/section';
+
+// CONTACT
+@import 'views/contact/contact';
+
+// FOOTER
+@import 'views/footer/footer';
+@import 'views/footer/footer-partner'; 
+
+* { 
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  margin: 0 auto;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
