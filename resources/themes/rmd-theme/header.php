@@ -16,5 +16,3 @@
           <li></li>
         <?php } ?>
       </ul>
-
-<!--  style="background-image:url(<?//= IMAGES_URL; ?>/blueStar.png); -->
