@@ -70,7 +70,7 @@ define( 'NONCE_SALT',       'erCh{0)]EcYLmF<(UJ==R6<Tv+< f^19w_=Q8WGcA1D[6^]*]kz
  * si vous leur donnez chacune un préfixe unique.
  * N’utilisez que des chiffres, des lettres non-accentuées, et des caractères soulignés !
  */
-$table_prefix = '12bb487v5wp_';
+$table_prefix = 'wp_';
 
 /**
  * Pour les développeurs : le mode déboguage de WordPress.
@@ -86,7 +86,7 @@ $table_prefix = '12bb487v5wp_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
+define('WP_DEBUG', true);
 define('WP_CACHE', true);
 // to force chmod file
 define('FS_CHMOD_DIR', (0755 & ~ umask()));

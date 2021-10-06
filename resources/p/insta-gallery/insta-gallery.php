@@ -4,7 +4,7 @@
  * Plugin Name:       Social Feed Gallery
  * Plugin URI:        https://quadlayers.com/portfolio/instagram-feed-gallery/
  * Description:       Display beautiful and responsive galleries on your website from your Instagram feed account.
- * Version:           3.2.8
+ * Version:           3.2.9
  * Author:            QuadLayers
  * Author URI:        https://quadlayers.com
  * License:           GPLv3
@@ -19,7 +19,7 @@ if (!defined('QLIGG_PLUGIN_NAME')) {
     define('QLIGG_PLUGIN_NAME', 'Social Feed Gallery');
 }
 if (!defined('QLIGG_PLUGIN_VERSION')) {
-    define('QLIGG_PLUGIN_VERSION', '3.2.8');
+    define('QLIGG_PLUGIN_VERSION', '3.2.9');
 }
 if (!defined('QLIGG_PLUGIN_FILE')) {
     define('QLIGG_PLUGIN_FILE', __FILE__);
