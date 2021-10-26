@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.4.1",
+    "@splidejs/splide": "^3.2.1",
     "babel-loader": "^8.2.2",
     "copy-webpack-plugin": "^9.0.1",
     "css-loader": "^6.2.0",

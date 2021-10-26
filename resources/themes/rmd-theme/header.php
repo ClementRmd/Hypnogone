@@ -4,7 +4,6 @@
     <title>Hypnogone</title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css"> -->
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>

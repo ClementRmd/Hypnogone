@@ -8,6 +8,7 @@ function my_scripts() {
 //STYLE
 add_action('wp_enqueue_scripts', 'my_style');
 function my_style() {
+  wp_enqueue_style('splide', THEME_URL .'/libs/splide.min.css');
   wp_enqueue_style('stylecss', THEME_URL .'/dist/styles/app.min.css');
 }
 

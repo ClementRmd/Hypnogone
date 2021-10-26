@@ -6,10 +6,8 @@ if ( have_posts() ) :
   while ( have_posts() ) :
     the_post();
 
-    get_template_part('templates/home/home', 'hero');
-    get_template_part('templates/home/home', 'section');
     get_template_part('templates/home/home', 'slider');
-
+   
   endwhile;
 endif;
 
