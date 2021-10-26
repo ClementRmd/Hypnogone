@@ -12,6 +12,7 @@ if ( have_posts() ) :
 
   endwhile;
 endif;
+
 wp_reset_postdata();
 
 get_footer();

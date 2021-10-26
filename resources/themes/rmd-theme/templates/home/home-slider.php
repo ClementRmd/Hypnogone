@@ -15,7 +15,6 @@
                   <li class="glide__slide">
                     <div class="picture" data-img="<?= $imageFull; ?>">
                       <img src="<?= $image; ?>" alt="">
-                      <!-- <span><i class="fas fa-search-plus 4x"></i></span> -->
                     </div>
                     <div class="overlay"></div>
                   </li>

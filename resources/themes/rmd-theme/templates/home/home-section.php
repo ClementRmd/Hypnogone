@@ -9,7 +9,10 @@
 <div class="bg_blue home-section">
   <div class="bloc_section">
     <div class="bloc_section__picture">
-      <img src="<?= $image; ?>" alt="">
+      <img
+        src="<?= $image; ?>"
+        alt=""
+      >
     </div>
     <div class="bloc_section__text">
       <h3><?= $title; ?></h3>

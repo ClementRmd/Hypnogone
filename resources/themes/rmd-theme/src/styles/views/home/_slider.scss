@@ -4,50 +4,51 @@
   height: 500px;
   background-color: $white;
 
-  .glide__slides {
-    display: flex;
-    align-items: center;
-    .glide__slide {
-      position: relative;
+  // .glide__slides {
+  //   display: flex;
+  //   align-items: center;
 
-      .picture {
-        position: relative;
+  //   .glide__slide {
+  //     position: relative;
 
-        img {
-          width: 100%;
-        }
+  //     .picture {
+  //       position: relative;
 
-        span {
-          position: absolute;
-          bottom: 0;
-          right: 0;
-          width: 50px;
-          height: 50px;
-          background-color: goldenrod;
+  //       img {
+  //         width: 100%;
+  //       }
 
-          i {
-            color: black;
-          }
-        }
-      }
+  //       span {
+  //         position: absolute;
+  //         bottom: 0;
+  //         right: 0;
+  //         width: 50px;
+  //         height: 50px;
+  //         background-color: goldenrod;
 
-      .overlay {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        background-color: rgba(0, 0, 0, 0.8);
-        transition: opacity 0.5s ease-in-out;
-      }
+  //         i {
+  //           color: black;
+  //         }
+  //       }
+  //     }
 
-      &:hover,
-      &:focus {
-        .overlay {
-          opacity: 1;
-        }
-      }
-    }
-  }
+  //     // .overlay {
+  //     //   position: absolute;
+  //     //   bottom: 0;
+  //     //   right: 0;
+  //     //   height: 100%;
+  //     //   width: 100%;
+  //     //   opacity: 0;
+  //     //   background-color: rgba(0, 0, 0, 0.8);
+  //     //   transition: opacity 0.5s ease-in-out;
+  //     // }
+
+  //     // &:hover,
+  //     // &:focus {
+  //     //   .overlay {
+  //     //     opacity: 1;
+  //     //   }
+  //     // }
+  //   }
+  // }
 }
