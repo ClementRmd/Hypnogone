@@ -11,7 +11,9 @@
     <?php get_template_part('templates/header/header', 'main'); ?>
     <div class="wrapper">
       <ul class="background-animate">
-        <?php for ($i=0; $i <= 8 ; $i++) { ?>
-          <li></li>
-        <?php } ?>
+        <div class="background-animate__container">
+          <?php for ($i=0; $i <= 8 ; $i++) { ?>
+            <li></li>
+          <?php } ?>
+        </div>
       </ul>

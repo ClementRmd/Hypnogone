@@ -8,9 +8,8 @@
 @import 'views/header/header';
 
 // HOME
-@import 'views/home/hero';
 @import 'views/home/slider';
-@import 'views/home/section';
+@import 'views/home/text-image';
 
 // CONTACT
 @import 'views/contact/contact';
@@ -18,6 +17,9 @@
 // FOOTER
 @import 'views/footer/footer';
 @import 'views/footer/footer-partner'; 
+
+// Js css
+@import 'misc/eventJs';
 
 * { 
   box-sizing: border-box;

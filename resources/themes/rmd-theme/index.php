@@ -5,8 +5,9 @@ get_header();
 if ( have_posts() ) :
   while ( have_posts() ) :
     the_post();
-
-    get_template_part('templates/home/home', 'slider');
+    
+    get_template_part('templates/home/text-image');
+    get_template_part('templates/home/slider');
    
   endwhile;
 endif;

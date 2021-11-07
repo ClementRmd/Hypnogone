@@ -21,8 +21,8 @@
         <div class="footer-others__social-network">
           <h3>Réseaux sociaux</h3>
           <div class="footer-others__social-network__img">
-            <a href="#"><img src="<?= IMAGES_URL; ?>/facebook.png" alt=""></a>
-            <a href="#"><img src="<?= IMAGES_URL; ?>/instagram.png" alt=""></a>
+            <!--<a href="#"><img src="<?//= IMAGES_URL; ?>/facebook.png" alt=""></a>
+            <a href="#"><img src="<?//= IMAGES_URL; ?>/instagram.png" alt=""></a>-->
           </div>
         </div>
         <div class="footer-others__menu">
