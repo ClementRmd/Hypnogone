@@ -12,12 +12,27 @@
         background-color: $white;
         box-shadow: 0px 0px 20px 4px rgba(0,0,0,0.5);
         transition: all .5s ease-in-out;
+        cursor: pointer;
 
         &__img {
+            position: relative;
             display: flex;
             justify-content: flex-start;
 
-            img {
+            .message-pdf {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                font-size: 3rem;
+                background-color: rgba($blue, 0.8);
+                color: $white;
+                transition: all 1s ease-in-out;
+                opacity: 0;
             }
         }
 
@@ -25,9 +40,17 @@
             padding: 0 50px;
 
             p {
+                font-family: $secondary-font;
                 color: $black;
                 line-height: 1.8;
                 text-align: center;
+            }
+        }
+
+        &:hover,
+        &:focus {
+            .section-image-text__bloc__img .message-pdf {
+                opacity: 1;
             }
         }
     }

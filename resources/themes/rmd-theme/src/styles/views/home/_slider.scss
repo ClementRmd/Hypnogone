@@ -1,3 +1,11 @@
 .splide__pagination {
     display: none;
 }
+
+.slider-home {
+    margin: 30px 0;
+
+    &--img {
+        cursor: pointer;
+    }
+}

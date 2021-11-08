@@ -17,9 +17,11 @@
                     <a
                         class="section-image-text__bloc__img"
                         href="<?= $pdf['url']; ?>"
-                        download="<?= $pdf['url']; ?>"
                     >
                         <img src="<?= $image; ?>" alt="">
+                        <div class="message-pdf">
+                            Cliquer pour voir PDF
+                        </div>
                         <!-- <iframe src="<?//= $pdf['url']; ?>" frameborder="0" height="500" allow="fullscreen" loading="lazy"></iframe> -->
                     </a>
 

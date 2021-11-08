@@ -39,7 +39,7 @@ module.exports = () => {
   
 
 
-  const images = document.querySelectorAll('.slider .glide__slide');
+  const images = document.querySelectorAll('.splide .splide__slide');
   
   if (images) {
     images.forEach(image => {

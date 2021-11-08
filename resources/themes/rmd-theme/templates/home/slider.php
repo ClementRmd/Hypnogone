@@ -3,7 +3,7 @@
 
     if( $images ): ?>
 
-    <div class="splide">
+    <div class="splide slider-home">
         <div class="splide__track">
             <ul class="splide__list">
                 <?php 
@@ -12,7 +12,10 @@
                         $imageFull = wp_get_attachment_image_src($imageId, 'full')[0];
                     ?>
 
-                    <li class="splide__slide">
+                    <li
+                        class="splide__slide slider-home--img"
+                        data-img="<?= $image; ?>"
+                    >
                         <div class="picture">
                             <img src="<?= $image; ?>" alt="">
                         </div>
