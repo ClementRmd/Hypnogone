@@ -12,14 +12,15 @@
                         $imageFull = wp_get_attachment_image_src($imageId, 'full')[0];
                     ?>
 
-                    <li
+                    <a
                         class="splide__slide slider-home--img"
-                        data-img="<?= $image; ?>"
+                        href="<?= $image; ?>"
+                        target="_blank"
                     >
                         <div class="picture">
                             <img src="<?= $image; ?>" alt="">
                         </div>
-                    </li>
+                    </a>
                     
                     <?php
                     endforeach;
